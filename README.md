@@ -1,2 +1,1 @@
-# holbertonschool-monty
-C - Stacks, Queues - LIFO, FIFO
+Some text for pop code :)
