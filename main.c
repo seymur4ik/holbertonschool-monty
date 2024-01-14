@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	fd = fopen(argv[1], "r");
 	if (fd == NULL)
 	{
-		printf("Error: Can't open file %s\n", argv[1]);
+		fprintf(stderr, "Error: Can't open file %s\n", argv[1]);
 		exit(EXIT_FAILURE);
 	}
 	while (getline(&line, &len, fd) != -1)
@@ -38,4 +38,3 @@ int main(int argc, char *argv[])
 	fclose(fd);
 	return (0);
 }
-
